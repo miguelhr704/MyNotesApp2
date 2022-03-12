@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600&family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.theme-container{
+    width: 100%;
+    background-color: #e5e6ee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paper-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 16px;
+}
+
+.content{
+    width: 60%;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 4rem;
+    border-radius: 20px;
+    color: #ff8d8d;
+    transition: background-color .5s, color .5s;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 3px 5px 18px -11px rgb(0 0 0 / 76%);
+}
+
+.content:hover{
+    background-color: #ff8d8d;
+    color: #ffffff;
+}
+
+.content h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.content h4{
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    font-size: 20px; 
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff;
+    width: 5rem;
+    height: 100vh;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 3px 5px 18px -11px rgba(0,0,0,0.76);
+    position: sticky;
+    top: 0;
+}
+
+.navbar-button{
+    font-family: 'Inter', sans-serif;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ff8d8d;
+    cursor: pointer;
+}
+
+.navbar-button:hover{
+    background-color: #ff8d8d;
+    color: #ffffff;
+}
+
+.navbar-button__toolTip{
+    opacity: 0;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff8d8d;
+    color: #ffffff;
+    z-index: 1;
+    position: absolute;
+    left: -4px;
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: left .5s;
+}
+
+.navbar-button:hover .navbar-button__toolTip{
+    left: 80px;
+    opacity: 1;
+}
+
+.add-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 4rem;
+    border-radius: 20px;
+    color: #ff8d8d;
+    transition: background-color .5s, color .5s;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 3px 5px 18px -11px rgb(0 0 0 / 76%);
+}
+
+.add-content__input{
+    width: 60%;
+    height: 3rem;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 15px;
+    background-color: #f0f3f8;
+}
+
+.add-content__input:focus{
+    outline-color: #ff8d8d;
+}
+
+.add-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 4rem;
+    border-radius: 20px;
+    color: #ff8d8d;
+    transition: background-color .5s, color .5s;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 3px 5px 18px -11px rgb(0 0 0 / 76%);
+}
+
+.add-content__info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.home{
+ display: grid;
+  grid-template-columns: 80% 80% 80%;
+  grid-gap: 5rem;
+  grid-template-rows:  10rem;
+  justify-content: center;
+  margin-top: 12rem;
+}
+
+.home-content{
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    color: #ff8d8d;
+    font-weight: 600;
+    width: 100%;
+    height: 10rem;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    transition: background .5s, color .5s, width .5s, height .5s;
+    box-shadow: 3px 5px 18px -11px rgb(0 0 0 / 76%);
+}
+
+.home-content:hover{
+    background: #ff8d8d;
+    color: white;
+    cursor: pointer;
+    width: 105%;
+    height: 11rem;
+}

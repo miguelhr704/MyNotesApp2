@@ -1,0 +1,5 @@
+.App {
+  background-color: #e5e6ee;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+}

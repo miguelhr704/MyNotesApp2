@@ -1,0 +1,148 @@
+{
+  "info": [
+    {
+      "id": "75cef22d-28ad-4a5a-a8d4-3b47b679bbe1",
+      "title": "Git",
+      "subTitle": "git config --global",
+      "content": "Apica configuracion global y no por proyecto"
+    },
+    {
+      "id": "b90adc05-5813-409b-aed6-978c61bb0926",
+      "title": "Git",
+      "subTitle": "git config --global user.name \"Nombre\"",
+      "content": "Configura el nombre de Git"
+    },
+    {
+      "id": "ed85d717-ab0e-4a7e-b20f-33dacf0afa0d",
+      "title": "Git",
+      "subTitle": "git config --global user.email email",
+      "content": "Configura el correo de Git"
+    },
+    {
+      "id": "969cea95-804d-4bd2-ab75-2837c2085e35",
+      "title": "Git",
+      "subTitle": "git config --global core.editor \"code --wait\"",
+      "content": "Configura el editor de texto pordefecto para git \"la opcion de wait sirve para que la consola espere a que se ejecute la accion\""
+    },
+    {
+      "id": "602fb576-f6ea-4510-898c-b57b1093b11b",
+      "title": "Git",
+      "subTitle": "git config --global -e",
+      "content": "Muestra el archivo de configuracion de Git"
+    },
+    {
+      "id": "f44364ae-0f15-443f-80f3-60af723dc379",
+      "title": "Git",
+      "subTitle": "git config --global core.autocrlf true",
+      "content": "Modifica el salto de linea dependiendo de que sitema operativo se utilice en windows es cr o lf \"true\" minetras que en mac o linus solo es ls \"input\""
+    },
+    {
+      "id": "ff3de458-8ee3-43b2-b994-51fc76f51463",
+      "title": "Git",
+      "subTitle": "git config -h",
+      "content": "Muestra toda la configuracion desiponible de Git"
+    },
+    {
+      "id": "6a645f01-2c49-42cc-b671-699127b7fcda",
+      "title": "Git",
+      "subTitle": "git init",
+      "content": "Inicializa el nuevo reporsitorio de git"
+    },
+    {
+      "id": "4ddc3a67-bbcc-4ffe-b362-6ca04faa4483",
+      "title": "Git",
+      "subTitle": "git status",
+      "content": "muestra el estado actual del repositorio"
+    },
+    {
+      "id": "0cac6727-3a47-43c2-b72b-8856d69ae6df",
+      "title": "Git",
+      "subTitle": "git add nombre-archivo",
+      "content": "selecciona los archivos que va a estar usando git"
+    },
+    {
+      "id": "84b837dd-ead7-4cf4-8b0b-0b37401c8a44",
+      "title": "Git",
+      "subTitle": "git commit -m \"Mensaje\"",
+      "content": "Prepara los archivos una vez seleccionados se agrega un mensaje para identificar el commit"
+    },
+    {
+      "id": "9669b56c-2665-452f-8630-6177533f5d0a",
+      "title": "Git",
+      "subTitle": "git restore --staged \"nombre archivo\"",
+      "content": "restaura los cambios en un archivo previamente en etapa de commit hacia la etapa de stage"
+    },
+    {
+      "id": "7d5287ee-6c3c-4140-ab25-43bb72d44c7c",
+      "title": "Git",
+      "subTitle": "git restore \"nombre archivo\"",
+      "content": "restaura los cambios en un archivo"
+    },
+    {
+      "id": "4e060178-1cbf-4b1a-b364-e0dc9a34eee8",
+      "title": "Git",
+      "subTitle": "Archivo .gitignore",
+      "content": "Sirve para ignorar los archivos que no se quieran anadir al commit"
+    },
+    {
+      "id": "2195aad2-6071-4449-ba4e-724c125896b5",
+      "title": "Git",
+      "subTitle": "git diff",
+      "content": "muestra los cambios en los archivos que aun no se encuentran en stage de una forma mas visual"
+    },
+    {
+      "id": "89b6591b-bf1c-4329-807b-194d289d1bb7",
+      "title": "Git",
+      "subTitle": "git diff --staged",
+      "content": "muestra los cambios en los archivos que se encuentran en stage de una forma mas visual"
+    },
+    {
+      "id": "52b0c268-5b66-4987-b6fa-208703ddca2e",
+      "title": "Git",
+      "subTitle": "git log",
+      "content": "muestra el historial del repositorio"
+    },
+    {
+      "id": "781ce743-6966-46c8-970e-964042d53e90",
+      "title": "Git",
+      "subTitle": "git log --oneline",
+      "content": "muestra el historial del repositorio de una mejor forma con un identificador para cada cambio"
+    },
+    {
+      "id": "9cc2f85c-c1cb-4bca-b319-920f3c416be7",
+      "title": "Git",
+      "subTitle": "git branch",
+      "content": "nos muestra en que rama del repositorio estamos trabajando"
+    },
+    {
+      "id": "023fa178-649b-48ae-bc9c-a34c4c82206b",
+      "title": "Git",
+      "subTitle": "it checkout -b nombre dela rama",
+      "content": "nos muestra en que rama del repositorio estamos trabajando"
+    },
+    {
+      "id": "240daa2d-8801-4b6f-b187-896be507d37c",
+      "title": "Git",
+      "subTitle": "git checkout nombre dela rama",
+      "content": "sirve para cambiar de rama"
+    },
+    {
+      "id": "9a86823e-934f-4c75-a8be-cce4a8210421",
+      "title": "Git",
+      "subTitle": "git merge nombre de la rama",
+      "content": "sirve para recuperar los cambios de una rama a la ramamprincipal"
+    },
+    {
+      "id": "b0b8a244-a918-4e1a-b7cf-2eef3b791fb2",
+      "title": "Git",
+      "subTitle": "git push -u origin nombre de la rama",
+      "content": "sube el repositorio a github"
+    },
+    {
+      "id": "26e22a0b-b0e6-4f65-a306-6d824c1dae09",
+      "title": "Git",
+      "subTitle": "git push",
+      "content": "sube los cambios repositorio a github"
+    }
+  ]
+}
